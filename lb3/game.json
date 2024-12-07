@@ -1,0 +1,438 @@
+{
+    "enemy_field": {
+        "columns": 5,
+        "field": [
+            [
+                {
+                    "has_ship": false,
+                    "state": 1
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 0,
+                    "ship": {
+                        "is_vertical": false,
+                        "length": 1,
+                        "segments": [
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                }
+            ],
+            [
+                {
+                    "has_ship": false,
+                    "state": 1
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 0,
+                    "ship": {
+                        "is_vertical": true,
+                        "length": 3,
+                        "segments": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                }
+            ],
+            [
+                {
+                    "has_ship": true,
+                    "segment_index": 0,
+                    "ship": {
+                        "is_vertical": false,
+                        "length": 2,
+                        "segments": [
+                            0,
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 1,
+                    "ship": {
+                        "is_vertical": false,
+                        "length": 2,
+                        "segments": [
+                            0,
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 1,
+                    "ship": {
+                        "is_vertical": true,
+                        "length": 3,
+                        "segments": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                }
+            ],
+            [
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 2,
+                    "ship": {
+                        "is_vertical": true,
+                        "length": 3,
+                        "segments": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                }
+            ],
+            [
+                {
+                    "has_ship": true,
+                    "segment_index": 0,
+                    "ship": {
+                        "is_vertical": false,
+                        "length": 1,
+                        "segments": [
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                }
+            ]
+        ],
+        "rows": 5
+    },
+    "enemy_ships_manager": {
+        "ships": [
+            {
+                "isVertical": true,
+                "length": 1,
+                "segments": [
+                    0
+                ]
+            },
+            {
+                "isVertical": true,
+                "length": 1,
+                "segments": [
+                    0
+                ]
+            },
+            {
+                "isVertical": true,
+                "length": 2,
+                "segments": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "isVertical": true,
+                "length": 3,
+                "segments": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    },
+    "player_ability_manager": {
+        "abilities": [
+            "Double Damage Ability",
+            "Shelling Ability"
+        ]
+    },
+    "player_field": {
+        "columns": 5,
+        "field": [
+            [
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 0,
+                    "ship": {
+                        "is_vertical": false,
+                        "length": 3,
+                        "segments": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 1,
+                    "ship": {
+                        "is_vertical": false,
+                        "length": 3,
+                        "segments": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 2,
+                    "ship": {
+                        "is_vertical": false,
+                        "length": 3,
+                        "segments": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                }
+            ],
+            [
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                }
+            ],
+            [
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 0,
+                    "ship": {
+                        "is_vertical": true,
+                        "length": 1,
+                        "segments": [
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                }
+            ],
+            [
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 1
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 0,
+                    "ship": {
+                        "is_vertical": true,
+                        "length": 2,
+                        "segments": [
+                            0,
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 1
+                }
+            ],
+            [
+                {
+                    "has_ship": true,
+                    "segment_index": 0,
+                    "ship": {
+                        "is_vertical": true,
+                        "length": 1,
+                        "segments": [
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                },
+                {
+                    "has_ship": true,
+                    "segment_index": 1,
+                    "ship": {
+                        "is_vertical": true,
+                        "length": 2,
+                        "segments": [
+                            0,
+                            0
+                        ]
+                    },
+                    "state": 2
+                },
+                {
+                    "has_ship": false,
+                    "state": 0
+                }
+            ]
+        ],
+        "rows": 5
+    },
+    "player_ships_manager": {
+        "ships": [
+            {
+                "isVertical": true,
+                "length": 1,
+                "segments": [
+                    0
+                ]
+            },
+            {
+                "isVertical": true,
+                "length": 1,
+                "segments": [
+                    0
+                ]
+            },
+            {
+                "isVertical": true,
+                "length": 2,
+                "segments": [
+                    0,
+                    0
+                ]
+            },
+            {
+                "isVertical": true,
+                "length": 3,
+                "segments": [
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ]
+    }
+}
